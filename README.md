@@ -12,4 +12,4 @@ This job is for pipeline script of airflow eks deployment. we trigger it manuall
 
 Perquisites:
 * static Jenkins agent should run on eks cluster so that it picks agent based on cluster/environment
-* static Jenkins agent should have helm, kubectl, docker, Jenkins agent jar and swarm client 
+* static Jenkins agent should have helm, kubectl, docker, Jenkins agent jar and swarm client binary in docker image
